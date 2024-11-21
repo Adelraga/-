@@ -56,8 +56,10 @@ class _CustomTrendingContainerState extends State<CustomTrendingContainer> {
                         });
                       },
                       child: isStarSelected
-                          ? Image.asset("assets/images/unselectedStar.png")
-                          : Image.asset("assets/images/selectdStar.png")),
+                          ? Image.asset("assets/images/selectdStar.png")
+                          : Image.asset("assets/images/unselectedStar.png")
+                          
+                          ),
                   Image.asset("assets/images/share.png"),
                   Image.asset("assets/images/display.png"),
                 ],
